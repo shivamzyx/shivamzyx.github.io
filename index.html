@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<title>Student Registration Form</title>
+
+<body>
+    <h2>Student Registration Form</h2>
+    <img src="logo.png">
+    <br>
+    <br>
+    <form action="https://www.google.com">
+        <label for="fullname">Enter your Full Name: </label>
+        <input type="text" placeholder="Full Name" id="fullname" name="fullname" required>
+        <br>
+        <br>
+        <label for="dob">Provide your Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+        <br>
+        <br>
+        <label for="gender">Select your Gender:</label>
+        <select id="gender" name="gender" required>
+            <option>--Select--</option>
+            <option>Male</option>
+            <option>Others</option>
+        </select>
+        <br>
+        <br>
+        <label for="email">Provide your E-mail:</label>
+        <input type="email" placeholder="Email" id="email" name="email" required>
+        <br>
+        <br>
+        <label for="phone">Provide your phoone number:</label>
+        <input type="tel" placeholder="Phone No." name="phone" id="'phone" pattern="[0-9]{10}" required>
+        <br>
+        <br>
+        <label id="address">Enter your address here:</label>
+        <textarea id="address" placeholder="Adress" name="address" rows="4" cols="30" required></textarea>
+        <br>
+        <br>
+        <label for="course">Select your course:</label>
+        <select id="course" name="course" required>
+            <option>--Select--</option>
+            <option>B.Tech</option>
+            <option>BCA</option>
+            <option>MCA</option>
+            <option>M.Tech</option>
+            <option>MBA</option>
+        </select>
+        <br>
+        <br>
+        <button type="submit">Register</button>
+    </form>
+
+</body>
+
+</html>
